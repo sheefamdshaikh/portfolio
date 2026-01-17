@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+}
+
+.hero {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.links a {
+  margin: 10px;
+  padding: 12px 22px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.links a:hover {
+  background: #1d4ed8;
+}
+
+.section {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+.section.light {
+  background: #f8fafc;
+}
+
+.skills span {
+  display: inline-block;
+  background: #e5e7eb;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin: 6px;
+  font-size: 0.9rem;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
